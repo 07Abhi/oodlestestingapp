@@ -71,7 +71,7 @@ class Profile extends StatelessWidget {
                   color: Colors.teal,
                 ),
                 title: Text(
-                  '${userProfile.address.street},${userProfile.address.suit},${userProfile.address.city},${userProfile.address.zipcode}',
+                  '${userProfile.address.street},${userProfile.address.suite},${userProfile.address.city},${userProfile.address.zipcode}',
                   style: TextStyle(
                     color: Colors.teal.shade800,
                     fontSize: 15.0,

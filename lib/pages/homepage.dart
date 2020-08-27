@@ -138,7 +138,7 @@ class _HomePageState extends State<HomePage> {
                                         height: 7.0,
                                       ),
                                       Text(
-                                        '${userData[item].address.street},${userData[item].address.suit},${userData[item].address.city},${userData[item].address.zipcode}',
+                                        '${userData[item].address.street},${userData[item].address.suite},${userData[item].address.city},${userData[item].address.zipcode}',
                                         style: TextStyle(
                                           fontSize: 15.0,
                                         ),

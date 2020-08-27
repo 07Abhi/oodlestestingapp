@@ -1,9 +1,9 @@
 class Address {
   String street;
-  String suit;
+  String suite;
   String city;
   String zipcode;
-  Address({this.street, this.suit, this.city, this.zipcode});
+  Address({this.street, this.suite, this.city, this.zipcode});
 }
 
 class UserData {
@@ -18,7 +18,7 @@ class UserData {
         email: data['email'],
         address: Address(
           street: data['address']['street'],
-          suit: data['address']['suit'],
+          suite: data['address']['suite'],
           city: data['address']['city'],
           zipcode: data['address']['zipcode'],
         ),
